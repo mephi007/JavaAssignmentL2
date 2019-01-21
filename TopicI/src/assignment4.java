@@ -6,7 +6,7 @@ public class assignment4 {
 		Scanner in = new Scanner(System.in);
 		System.out.println("Enter number of rows");
 		int n = in.nextInt();
-
+		int u =0;
 		assert !(n < 0): "MyOwnNegativeValueEnteredException" ;
 		assert (n != 0): "MyOwnZeroValueEnteredException" ;
 		
