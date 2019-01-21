@@ -7,8 +7,8 @@ public class assignment4 {
 		System.out.println("Enter number of rows");
 		int n = in.nextInt();
 
-		assert (n < 0): "MyOwnNegativeValueEnteredException" ;
-		assert (n == 0): "MyOwnZeroValueEnteredException" ;
+		assert !(n < 0): "MyOwnNegativeValueEnteredException" ;
+		assert (n != 0): "MyOwnZeroValueEnteredException" ;
 		
 		for(int i=1;i<=n/2+1;i++)
 		{
